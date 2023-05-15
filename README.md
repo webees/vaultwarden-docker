@@ -12,6 +12,7 @@ services:
     environment:
       - DOMAIN=https://pass.dev.run
       - SROCKET_WORKERS=1
+      - WEBSOCKET_ENABLED=true
       - SIGNUPS_ALLOWED=false
       - SHOW_PASSWORD_HINT=false
       # - ADMIN_TOKEN=88888888
