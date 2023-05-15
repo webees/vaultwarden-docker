@@ -1,5 +1,5 @@
 # compose.yml
-```
+```yaml
 version: '3'
 
 services:
