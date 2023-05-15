@@ -19,7 +19,7 @@ services:
       - SMTP_FROM=xxxxxxxx@gmail.com
       - SMTP_USERNAME=xxxxxxxx@gmail.com
       - SMTP_PASSWORD=xxxxxxxxxxxxxxxx
-      - DATABASE_URL=postgresql://xxxxxxxx:xxxxxxxx@db.bit.io:5432/xxxxxxxx.vaultwarden
+      # - DATABASE_URL=postgresql://xxxxxxxx:xxxxxxxx@db.bit.io:5432/xxxxxxxx.vaultwarden
     labels:
       - traefik.enable=true
       - traefik.http.routers.vaultwarden.entrypoints=https
