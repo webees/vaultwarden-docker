@@ -16,9 +16,10 @@ services:
       # - ADMIN_TOKEN=88888888
       - SMTP_HOST=smtp.gmail.com
       - SMTP_PORT=587
-      - SMTP_FROM=xxxxxxx@gmail.com
-      - SMTP_USERNAME=xxxxxxx@gmail.com
+      - SMTP_FROM=xxxxxxxx@gmail.com
+      - SMTP_USERNAME=xxxxxxxx@gmail.com
       - SMTP_PASSWORD=xxxxxxxxxxxxxxxx
+      - DATABASE_URL=postgresql://xxxxxxxx:xxxxxxxx@db.bit.io:5432/xxxxxxxx.vaultwarden
     labels:
       - traefik.enable=true
       - traefik.http.routers.vaultwarden.entrypoints=https
